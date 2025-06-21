@@ -12,9 +12,9 @@ jobs:
 
         - name: List & Read Files
           run: 
-            echo "First Workflow in GitHub Actions"
-            ls -ltra
-            cat README.md
+              echo "First Workflow in GitHub Actions"
+              ls -ltra
+              cat README.md
 
         - name: Generate ASCII Artwork
           run: cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon .txt
