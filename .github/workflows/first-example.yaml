@@ -1,0 +1,17 @@
+name: First Workflow
+
+on: push
+
+jobs:
+    firs_job:
+        runs-on: ubuntu-latest
+        
+        steps:
+        - name: Welcome message
+          run: exho "First Workflow"
+
+        - name: List file
+          run: ls
+
+        - name: Read file
+          run: car README.md
