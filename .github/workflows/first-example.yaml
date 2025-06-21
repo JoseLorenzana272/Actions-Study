@@ -17,4 +17,7 @@ jobs:
               cat README.md
 
         - name: Generate ASCII Artwork
-          run: cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon .txt
+          uses: mscoutermarsh/cowsays-action@master
+          with:
+            text: 'I am a Dragon AHHH!'
+            color: 'blue'
