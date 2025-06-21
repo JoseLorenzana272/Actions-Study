@@ -8,10 +8,10 @@ jobs:
         
         steps:
         - name: Welcome message
-          run: exho "First Workflow"
+          run: echo "First Workflow"
 
         - name: List file
           run: ls
 
         - name: Read file
-          run: car README.md
+          run: cat README.md
